@@ -33,7 +33,6 @@ function addToDo(event){
     trashButton.innerHTML = '<i class="fa-solid fa-poo"></i>';
     trashButton.classList.add("trash-btn");
     todoDiv.appendChild(trashButton);
-    //attach final Todo
     todoList.appendChild(todoDiv);
 
     todoInput.value = "";
