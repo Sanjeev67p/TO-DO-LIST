@@ -17,7 +17,7 @@ body{
 header{
     font-size: 3vh;
     font-weight: bolder;
-    
+    margin-left: -2.9vw;
 }
 
 form{
@@ -37,7 +37,7 @@ form input {
   border: none;
   background: white;
   border-radius: 2.8rem;
-  margin-left: 2.9vw;
+ 
   padding-left: 1rem;
 }
 
@@ -64,7 +64,7 @@ form button:hover{
 }
 
 .todo-list{
-    min-width: 30%;
+    min-width: 25%;
     list-style: none;
 }
 
