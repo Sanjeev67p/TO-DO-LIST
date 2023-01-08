@@ -15,8 +15,13 @@ body{
 }
 
 header{
-    font-size: 2.5rem;
+    font-size: 2vw;
     font-weight: bolder;
+    
+}
+
+form{
+    margin-bottom: 3vh;
 }
 header, form{
     display: flex;
@@ -25,12 +30,14 @@ header, form{
 }
 
 form input {
-  padding: 0.5rem;
-  font-size: 2rem;
+  padding: 0.5vw 0.5vh;
+  font-size: 2.5vh;
+  
   border: none;
   background: white;
-  border-radius: 1.5rem;
-  margin-left: 2.9rem;
+  border-radius: 2.8rem;
+  margin-left: 2.9vw;
+  padding-left: 1rem;
 }
 
 form input:hover{
