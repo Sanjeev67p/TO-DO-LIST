@@ -15,12 +15,13 @@ body{
 }
 
 header{
-    font-size: 2vw;
+    font-size: 3vh;
     font-weight: bolder;
     
 }
 
 form{
+    font-size: 2vh;
     margin-bottom: 3vh;
 }
 header, form{
@@ -81,7 +82,7 @@ form button:hover{
 }
 
 .todo-item{
-    width: 300PX;
+    width: 12rem;
     text-overflow: ellipsis;
     overflow: hidden;
 }
