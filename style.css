@@ -91,7 +91,22 @@ form button:hover{
   padding: 1rem;
   cursor: pointer;
   font-size: 1rem;
+  transition: all 0.1s ease;
 }
+
+.complete-btn:hover {
+    background-color: grey;
+}
+.trash-btn:hover {
+    background-color: grey;
+    border-top-right-radius: 2rem ;
+    border-bottom-right-radius: 2rem;
+}
+.edit-btn:hover {
+    background-color: grey;
+    
+}
+
 
 .fa-poo, .fa-pen, .fa-square, fa-square-check{
     pointer-events: none;
