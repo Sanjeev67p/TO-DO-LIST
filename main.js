@@ -24,10 +24,7 @@ function addToDo(event){
     completedButton.classList.add("complete-btn");
     todoDiv.appendChild(completedButton);
 
-    const editButton = document.createElement("button");
-    editButton.innerHTML = '<i class="fa-solid fa-pen"></i>';
-    editButton.classList.add("edit-btn");
-    todoDiv.appendChild(editButton);
+    
 
     const trashButton = document.createElement("button");
     trashButton.innerHTML = '<i class="fa-solid fa-poo"></i>';
@@ -100,10 +97,7 @@ function getTodos(){
     completedButton.classList.add("complete-btn");
     todoDiv.appendChild(completedButton);
 
-    const editButton = document.createElement("button");
-    editButton.innerHTML = '<i class="fa-solid fa-pen"></i>';
-    editButton.classList.add("edit-btn");
-    todoDiv.appendChild(editButton);
+    
 
     const trashButton = document.createElement("button");
     trashButton.innerHTML = '<i class="fa-solid fa-poo"></i>';
