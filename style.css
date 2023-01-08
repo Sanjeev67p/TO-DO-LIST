@@ -17,7 +17,7 @@ body{
 header{
     font-size: 3vh;
     font-weight: bolder;
-    margin-left: -2.9vw;
+    
 }
 
 form{
@@ -37,7 +37,7 @@ form input {
   border: none;
   background: white;
   border-radius: 2.8rem;
- 
+  margin-left: 2.0vw;
   padding-left: 1rem;
 }
 
