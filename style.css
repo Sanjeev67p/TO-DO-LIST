@@ -72,6 +72,7 @@ form button:hover{
     border-radius: 2.8rem;
     background: white;
     font-size: 1.5rem;
+    
     color: black;
     display: flex;
     justify-content: space-between;
@@ -79,6 +80,11 @@ form button:hover{
     transition: all 1s ease;
 }
 
+.todo-item{
+    width: 300PX;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
 .todo li {
     margin-left: 1rem;
     flex: 1;
